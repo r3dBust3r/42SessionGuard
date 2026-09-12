@@ -1,0 +1,11 @@
+[project]
+name = "42SessionGuard"
+version = "0.1.0"
+description = "Linux login notification tool using ntfy"
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+]
+
+[project.scripts]
+42sessionguard = "src.main:main"
