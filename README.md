@@ -278,3 +278,34 @@ Learn more about ntfy in the [official documentation](https://docs.ntfy.sh/).
 ## Security note
 
 42SessionGuard is intended as a lightweight notification tool, not as a complete security monitoring system.
+
+## Contributions
+
+Contributions are welcome!
+
+If you have an idea, find a bug, or want to improve 42SessionGuard, feel free to contribute.
+
+### How to contribute
+
+1. Fork the repository.
+2. Create a new branch:
+
+```bash
+git checkout -b feature/my-new-feature
+```
+
+3. Make your changes.
+4. Test your changes.
+5. Commit your changes:
+
+```bash
+git commit -m "Add my feature"
+```
+
+6. Push your branch:
+
+```bash
+git push origin feature/my-new-feature
+```
+
+7. Open a Pull Request.
