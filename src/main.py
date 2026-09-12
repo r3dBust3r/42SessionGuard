@@ -174,7 +174,7 @@ def install_login_hook() -> bool:
         hook = (
             "\n\n"
             "# 42SessionGuard\n"
-            "42sessionguard\n"
+            "$HOME/.local/bin/42sessionguard\n"
         )
 
         PROFILE_FILE.write_text(

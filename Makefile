@@ -5,10 +5,10 @@ install:
 help:
 	uv run src/main.py --help
 
-uninstall:
-	uv tool uninstall 42sessionguard
-	sed -i '/# 42SessionGuard/d;/^42sessionguard$$/d' ~/.profile
-	rm -rf ~/.local/share/42SessionGuard
-
 run:
 	42sessionguard
+
+uninstall:
+	uv tool uninstall 42sessionguard
+	sed -i '/# 42SessionGuard/d;/^\$$HOME\/.local\/bin\/42sessionguard$$/d' ~/.profile
+	rm -rf ~/.local/share/42SessionGuard
